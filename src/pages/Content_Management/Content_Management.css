@@ -1,0 +1,14 @@
+/* .editor-container-1 .jodit-wysiwyg {
+    height: 60px !important;
+  }
+   */
+
+.customHeight .jodit-wysiwyg {
+  height: 500px !important;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 781px) {
+  .ScreenSize {
+    justify-content: space-evenly;
+  }
+}

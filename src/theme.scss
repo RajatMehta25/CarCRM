@@ -1,0 +1,184 @@
+//Import Icon scss
+@import "./assets/scss/icons.scss";
+
+//import App scss
+@import "./assets/scss/bootstrap.scss";
+@import "./assets/scss/app.scss";
+
+//Import Dark theme
+// @import "./assets/scss/bootstrap-dark.scss";
+// @import "./assets/scss/app-dark.scss";
+
+// RTL mode
+// @import "./assets/scss/bootstrap.scss";
+// @import "./assets/scss/app-rtl.scss";
+
+//highlight button on driver management theme
+
+.highlight {
+  background-color: #0059cd !important;
+}
+.highlight:hover {
+  background-color: #0059cd !important;
+}
+.removehover:hover {
+  background: grey !important;
+}
+
+// collapsed sidebar css icon
+
+.ri-user-3-fill:before {
+  color: white;
+}
+.ri-building-line:before {
+  color: white;
+}
+.ri-dashboard-line:before {
+  color: white;
+}
+body[data-sidebar="dark"].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active {
+  color: #fff !important;
+}
+
+// approved disapproved validation styling
+// .col-4 {
+//   div {
+//     width: 320px !important;
+//     text-align: start !important;
+//   }
+// }
+//////////////////
+
+.nav-link {
+  cursor: pointer;
+}
+
+.dataTables_filter,
+.dataTables_paginate {
+  float: right;
+  .pagination {
+    .page-link {
+      border-radius: 30px !important;
+      margin: 0 3px;
+      border: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
+
+.rdw-editor-main {
+  border: 1px solid $gray-300;
+  height: 239px;
+}
+.dz-message {
+  text-align: center;
+  padding: 100px;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 1001 !important;
+}
+
+.rangeslider__fill {
+  background-color: $primary !important;
+}
+
+.react-bootstrap-table {
+  padding-top: 0px !important;
+}
+
+.square-switch {
+  .react-switch-bg {
+    border-radius: 5px !important;
+  }
+}
+
+input[type="range"] {
+  -webkit-appearance: auto !important;
+}
+
+.label-location-resize + div {
+  width: 300px;
+}
+
+.MuiTableCell-root {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.react-date-picker__wrapper {
+  border: thin solid #c4c4c4;
+  background: #fff;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.MuiButton-root.DeleteButton {
+  background-color: crimson;
+  color: #fff;
+}
+.MuiButton-root.DeleteButton:hover {
+  background-color: #252525;
+}
+.MuiButton-root.ViewButton {
+  background-color: #2765b3;
+  color: #fff;
+}
+.MuiButton-root.ViewButton:hover {
+  background-color: #252525;
+}
+.MuiButton-root.BlockButton {
+  background-color: #fcb92c;
+  color: #fff;
+}
+.MuiButton-root.BlockButton:hover {
+  background-color: #252525;
+}
+.MuiButton-root.BlockedButton {
+  background-color: orangered;
+  color: #fff;
+}
+.MuiButton-root.BlockedButton:hover {
+  background-color: #252525;
+}
+.MuiButton-root.EditButton {
+  background-color: #6a4c93;
+  color: #fff;
+}
+.MuiButton-root.EditButton:hover {
+  background-color: #252525;
+}
+.MuiButton-root.WidgetButton {
+  background-color: #8ac926;
+  color: #fff;
+}
+.MuiButton-root.WidgetButton:hover {
+  background-color: #252525;
+}
+.TooltipCustomSize {
+  font-size: 16px;
+}
+
+.my_swal {
+  z-index: 1500 !important;
+}
+
+.MuiButton-root.RideEndButton {
+  background-color: rgb(252, 25, 25);
+  color: #fff;
+}
+.MuiButton-root.RideEndButton:hover {
+  background-color: #252525;
+}
+
+.MuiTableRow-root.Mui-selected{
+  background-color:aliceblue !important ;
+}
+
+.hyperLinkHoverColor:hover{
+  color: #0059cd;
+}

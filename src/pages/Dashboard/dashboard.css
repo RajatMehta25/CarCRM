@@ -1,0 +1,47 @@
+.totalUsers {
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  background-color: #4461f0;
+  /* min-height: 200px; */
+  height: 100%;
+}
+
+.totalDrivers {
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ff9f1c;
+  color: #fff;
+  /* min-height: 200px; */
+  height: 100%;
+}
+
+.totalSubAdmin {
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ff6b6b;
+  color: #fff;
+  /* min-height: 200px; */
+  height: 100%;
+}
+.totalCount {
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #6eccaf;
+  color: #fff;
+  /* min-height: 200px; */
+  height: 100%;
+}
+.SpacingAndAlignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 10px 0px 10px 0px; */
+  align-items: baseline;
+  font-size: 2em;
+  /* text-align: center; */
+}

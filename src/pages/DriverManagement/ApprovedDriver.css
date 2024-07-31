@@ -1,0 +1,19 @@
+.customReactSelect .css-26l3qy-menu {
+  z-index: 4;
+}
+
+.imgFix {
+  max-width: 80px !important;
+  max-height: 80px !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imgpic {
+  max-width: 100px !important;
+  max-height: 100px !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imgpic img {
+}

@@ -1,0 +1,64 @@
+// input[type="date"] {
+//   font-family: arial, sans-serif;
+//   font-size: 18px;
+//   // font-weight: bold;
+//   text-transform: uppercase;
+//   // background-color: lighten(#2f2f2f, 40%);
+//   outline: none;
+//   border: 0;
+//   border-radius: 3px;
+//   padding: 0 3px;
+//   // color: black;
+
+//   &::-webkit-datetime-edit-month-field {
+//     // color: red;
+//   }
+//   &::-webkit-datetime-edit-day-field {
+//     // color: white;
+//   }
+//   &::-webkit-datetime-edit-year-field {
+//     // color: blue;
+//   }
+
+//   &::-webkit-clear-button {
+//     font-size: 18px;
+//     height: 30px;
+//     position: relative;
+//     right: 5px;
+//     margin-right: 4px;
+//   }
+//   &::-webkit-inner-spin-button {
+//     height: 30px;
+//   }
+
+//   &::-webkit-calendar-picker-indicator {
+//     font-size: 18px;
+
+//     &:hover {
+//       background-color: lighten(#2f2f2f, 40%);
+//       color: darken(#fff, 10%);
+//       cursor: pointer;
+//     }
+//     &:active {
+//       color: blue;
+//     }
+//   }
+// }
+
+.childDate .react-date-picker__wrapper {
+  height: 40px;
+  width: 20vw;
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 5px;
+}
+.childDate.react-date-picker {
+  // width: 100%;
+  height: 40px;
+}
+.childDate.react-date-picker__inputGroup {
+  font-size: 14px;
+  padding-inline-start: 15px;
+}
+.childDate.react-calendar {
+  z-index: 3;
+}

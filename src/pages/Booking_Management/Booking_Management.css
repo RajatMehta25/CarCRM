@@ -1,0 +1,8 @@
+.calenderZindex .react-date-picker {
+  z-index: 3;
+}
+.calenderZindex .react-date-picker__wrapper {
+  border-color: hsl(0, 0%, 80%);
+  min-height: 38px;
+  border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.customReactSelect .css-26l3qy-menu {
+  z-index: 4;
+}
+.imgpic {
+  max-width: 100px !important;
+  max-height: 100px !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.ratingImg {
+  max-width: 30px !important;
+  max-height: 30px !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* .react-date-picker__calendar {
+  z-index: 3 !important;
+} */
+
+/* .MuiTableCell-stickyHeader {
+  font-variant: small-caps;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+} */
+
+.MuiButton-root.ViewButton {
+  background-color: #2765b3;
+  color: #fff;
+}
+.MuiButton-root.BlockButton {
+  background-color: #fcb92c;
+  color: #fff;
+}
+.MuiButton-root.BlockedButton {
+  background-color: orangered;
+  color: #fff;
+}
+.MuiButton-root.DeleteButton {
+  background-color: crimson;
+  color: #fff;
+}
+
+/* .MuiTableRow-root.Mui-selected{
+  background-color:aliceblue !important;
+} */

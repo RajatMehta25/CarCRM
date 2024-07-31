@@ -1,0 +1,215 @@
+.brandname {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+.switchbox {
+  display: none;
+}
+
+.switchbox + label {
+  width: 70px;
+  background: red;
+  height: 28px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.switchbox + label:before {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: #ccc;
+  content: "";
+  border-radius: 50%;
+  top: 3px;
+  left: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.switchbox:checked + label {
+  background-color: green;
+}
+.switchbox:checked + label:before {
+  left: 44px;
+}
+.banner-item {
+  height: 300px;
+  width: calc(33% - 30px);
+  margin: 0 15px 15px;
+  max-width: calc(330% - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.banner-item:before {
+  content: "";
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+}
+
+.banner-item button {
+  background: #fff;
+  margin: 0 10px;
+}
+
+div#preloader.transprent {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+img.selected_image {
+  display: block;
+  max-height: 50px;
+  object-fit: cover;
+  object-position: center center;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #006fff !important;
+  border-color: #006fff !important;
+}
+
+form.map-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form.map-form .container {
+  padding: 0;
+}
+
+form.map-form div#map {
+  height: 400px;
+}
+
+form.map-form .form-control {
+  margin-bottom: 20px;
+}
+
+form.map-form .map-header {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form.map-form .map-header input.pac-target-input {
+  margin-right: 13px;
+}
+.btn-group {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group .btn-secondry {
+  width: auto;
+  max-width: 100px;
+  display: inline-block;
+}
+body[data-sidebar="dark"] #sidebar-menu ul li a.active {
+  color: #fff;
+  font-weight: bold;
+}
+.approve {
+  background: #50b550 !important;
+  color: #fff !important;
+  border: #50b550 !important;
+}
+
+.disapprove {
+  background: red !important;
+  color: #fff !important;
+  border-color: red !important;
+}
+.submenu i.ri-arrow-down-s-fill {
+  position: absolute;
+  right: 4px;
+}
+.submenu i.ri-arrow-right-s-fill {
+  position: absolute;
+  right: 4px;
+}
+.metismenu .mm-collapse {
+  padding-left: 5px;
+}
+.resturnat-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.resturnat-detail-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+}
+
+.resturnat-detail-row > * {
+  width: 50%;
+  padding: 14px;
+  line-height: 1;
+  font-size: 14px;
+  margin: 0;
+}
+
+.resturnat-detail-row:nth-child(odd) {
+  background: #fff;
+}
+
+.resturnat-detail-row label {
+  font-weight: bold;
+  color: #000;
+}
+
+.rs-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: 2px solid #ccc;
+}
+
+.rs-images {
+  padding: 20px;
+}
+span.cat {
+  padding: 5px 10px;
+  display: inline-block;
+  background: #981c6d;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.resturnat-detail-row > h3 {
+  width: 100%;
+  font-weight: bold;
+}
+.main-content {
+  overflow-y: auto;
+}
+.resturnat-detail-row > h3 center {
+  color: red;
+}
+
+@import "node_modules/react-modal-video/scss/modal-video.scss";

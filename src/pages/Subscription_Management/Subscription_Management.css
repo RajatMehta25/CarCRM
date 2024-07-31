@@ -1,0 +1,17 @@
+.MuiTableContainer-root::-webkit-scrollbar {
+  width: 4px !important;
+}
+.MuiTableContainer-root::-webkit-scrollbar:horizontal {
+  height: 8px !important;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 20px 20px 5px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px !important;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  -webkit-box-shadow: inset 20px 20px 5px rgba(0, 0, 0, 0.5) !important;
+  /* background: rgb(50, 97, 197); */
+}

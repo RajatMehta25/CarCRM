@@ -1,0 +1,41 @@
+.labelAddSubscription {
+  /* display: flex; */
+  /* margin-bottom: 2rem !important; */
+  /* display:"inline-block"; */
+  min-height: 4vh !important;
+  /* margin-bottom: -0.5rem !important; */
+  margin-top: 0.5rem;
+}
+
+/* .buttoncss {
+  background-color: #4d9aff !important;
+  color: #fff !important;
+} */
+.buttoncss:hover {
+  background-color: #4d9aff !important;
+  color: #fff !important;
+}
+.fieldAddSubscription {
+  /* display: flex !important; */
+  /* width: 40vw; */
+  min-height: 4vh !important;
+  border: 1px solid #dfdede;
+  min-width: 30vw;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.customContainer1 {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 40px 0 10px 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.custom_div1 {
+  display: flex;
+  flex-direction: column;
+}
+.disabledColor {
+  background-color: #f4f4f4 !important;
+}

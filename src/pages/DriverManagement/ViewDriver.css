@@ -1,0 +1,18 @@
+.CustomCheckBox {
+  width: 34px;
+  height: 15px;
+  border-radius: 5px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.ErrorMessageField {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-width: 1px;
+  padding-inline-start: 10px;
+}
